@@ -55,7 +55,7 @@ finally:
     sockClose()
 ```
 
-La petit subtilité ce trouve dans l'initialisation de la variable **t**, en effet, par défaut `time.time()` retourne un nombre flotant, et ce n'est pas la réponse attendue, en passant sur un entier, nous avons la bonne réponse.
+La petit subtilité se trouve dans l'initialisation de la variable **t**, en effet, par défaut `time.time()` retourne un nombre flottant, et ce n'est pas la réponse attendue, en passant sur un entier, nous avons la bonne réponse.
 
 Une fois sa proie attrapée, Evil cat la stock dans Flag.txt, afin de la partager avec vous ! Il est trop adorable ce chat !
 
