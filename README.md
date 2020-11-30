@@ -1,13 +1,3 @@
----
-title: opération Brigitte Friang | Définition
-subtitle: auriez-vous l'heure s'il vous plait ?
-author: tiphergane
-toc: true
-toc_depth: 2
----
-
-\pagebreak
-
 # Intro
 
 Un petit challenge pas trop compliqué, qui m'aura demandé plus de temps à adapter ma source qu'a chercher.
@@ -19,7 +9,6 @@ Notre petit camarade de bureau se croit malin en nous mettant au défi de répon
 Comme nous sommes des techniciens, nous savons qu'il existe une heure commune à tout les équipements, l'EPOCH.
 
 Cette petite merveille est normalement syncronisée et identique partout. Nous allons donc nous en servir pour lui donner.
-\pagebreak
 
 # Le script
 
@@ -66,7 +55,6 @@ finally:
     sockClose()
 ```
 
-\pagebreak
 La petit subtilité ce trouve dans l'initialisation de la variable **t**, en effet, par défaut `time.time()` retourne un nombre flotant, et ce n'est pas la réponse attendue, en passant sur un entier, nous avons la bonne réponse.
 
 Une fois sa proie attrapée, Evil cat la stock dans Flag.txt, afin de la partager avec vous ! Il est trop adorable ce chat !
